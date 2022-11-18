@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  width: 48rem;
+  width: 100%;
   min-width: 32rem;
   margin: 0 auto;
 }
