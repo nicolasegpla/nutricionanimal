@@ -48,7 +48,6 @@ header {
   width: 100%;
   height: 100vh;
   position: relative;
-  margin-top: 4rem;
 }
 .box-menu__botones {
   width: 90%;
@@ -60,12 +59,12 @@ header {
 .box-menu__botones__home {
   background-color: transparent;
   border: none;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 .box-menu__botones__close {
   background-color: transparent;
   border: none;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 .box-menu__paginas {
   width: 60%;

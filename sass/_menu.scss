@@ -4,7 +4,6 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    margin-top: 4rem;
     &__botones {
         width: 90%;
         margin: 0 auto;
@@ -14,12 +13,12 @@
         &__home {
             background-color: transparent;
             border: none;
-            margin-top: 2rem;
+            margin-top: 6rem;
         }
         &__close {
             background-color: transparent;
             border: none;
-            margin-top: 2rem;
+            margin-top: 6rem;
         }
     }
     &__paginas {
@@ -34,7 +33,7 @@
             margin-top: 3rem;
             font-weight: 500;
         }
-        
+
     }
 
 }
