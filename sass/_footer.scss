@@ -1,0 +1,9 @@
+@use 'global';
+
+.footer {
+    width: 100%;
+    background-color: global.$primary-color;
+    opacity: 90%;
+    min-width: 32rem;
+    color: global.$withe-color;
+}

@@ -88,4 +88,12 @@ header {
   bottom: 10rem;
 }
 
+.footer {
+  width: 100%;
+  background-color: #000;
+  opacity: 90%;
+  min-width: 32rem;
+  color: #fff;
+}
+
 /*# sourceMappingURL=estilos.css.map */
