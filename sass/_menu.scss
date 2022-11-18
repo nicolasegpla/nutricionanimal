@@ -1,0 +1,47 @@
+@use 'global';
+
+.box-menu {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 4rem;
+    &__botones {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__home {
+            background-color: transparent;
+            border: none;
+            margin-top: 2rem;
+        }
+        &__close {
+            background-color: transparent;
+            border: none;
+            margin-top: 2rem;
+        }
+    }
+    &__paginas {
+        width: 60%;
+        margin-left: 3rem;
+        margin-top: 8rem;
+        &__lista {
+            list-style: none;
+        }
+        &__lista li {
+            font-size: global.$font-size-title;
+            margin-top: 3rem;
+            font-weight: 500;
+        }
+    }
+
+}
+.whatsapp-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 3rem;
+    bottom: 8rem;
+
+}

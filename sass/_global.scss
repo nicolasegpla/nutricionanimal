@@ -1,0 +1,34 @@
+$font:'Inter', sans-serif;
+$font-size-title: 2rem;
+$font-size-text: 1.8rem;
+$primary-color: #000;
+$second-color: #038C33;
+$withe-color: #fff;
+$dark-second-color: #A64F03;
+
+$breackpoints: (
+    sm: 480px,
+    md: 960px,
+    lg: 1280px,
+);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: $font;
+}
+main {
+    width: 48rem;
+    min-width: 32rem;
+    margin: 0 auto; 
+}
+.inactive {
+    display: none;
+}
+
