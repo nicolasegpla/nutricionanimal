@@ -10,6 +10,10 @@
         font-size: global.$font-size-title;
         font-weight: 300;
         padding: 4rem 0 2rem 4rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
     }
     &__informacion {
         padding-left: 4rem;
