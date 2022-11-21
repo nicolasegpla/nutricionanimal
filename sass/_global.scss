@@ -1,6 +1,6 @@
 $font:'Inter', sans-serif;
-$font-size-title: 2rem;
-$font-size-text: 1.8rem;
+$font-size-title: 1.6rem;
+$font-size-text: 1.3rem;
 $primary-color: #000;
 $second-color: #038C33;
 $withe-color: #fff;
@@ -11,6 +11,16 @@ $breackpoints: (
     md: 960px,
     lg: 1280px,
 );
+
+@mixin elementosFooter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    font-size: $font-size-text;
+    font-weight: 100;
+    margin-top: 2rem;
+}
 
 * {
     box-sizing: border-box;

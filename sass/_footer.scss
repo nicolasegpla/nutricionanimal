@@ -6,4 +6,68 @@
     opacity: 90%;
     min-width: 32rem;
     color: global.$withe-color;
+    &__h2 {
+        font-size: global.$font-size-title;
+        font-weight: 300;
+        padding: 4rem 0 2rem 4rem;
+    }
+    &__informacion {
+        padding-left: 4rem;
+        &__fijo {
+            @include global.elementosFooter;
+        }
+        &__whatsapp {
+            @include global.elementosFooter;
+        }
+        &__horarios {
+            @include global.elementosFooter;
+            align-items: flex-start
+        }
+        &__ubicacion {
+            @include global.elementosFooter;
+            align-items: flex-start
+        }
+    }
+    &__map {
+        width: 100%;
+    }
+    &__menu {
+        padding: 4rem 0 6rem 4rem;
+        &__title {
+            font-size: global.$font-size-title;
+            font-weight: 300;
+            padding-bottom: 2rem;
+        }
+        &__list {
+            font-size: global.$font-size-text;
+            font-weight: 100;
+            margin-left: 1.5rem;
+        }
+        &__list li {
+            margin-top: 2rem;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+    &__pie-de-pagina {
+        text-align: center;
+        padding-bottom: 1rem;
+        color: global.$second-color;
+        font-size: global.$font-size-text;
+    }
 }
+.whatsapp-info {
+    width: 15rem;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid global.$second-color;
+    background-color: global.$primary-color;
+    color: global.$withe-color;
+    margin: 4rem 0 4rem 0;
+    cursor: pointer;
+}
+

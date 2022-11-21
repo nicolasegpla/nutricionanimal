@@ -36,7 +36,7 @@ header {
   align-items: center;
 }
 .bar-nav__title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-left: 1rem;
   color: #038C33;
 }
@@ -75,7 +75,7 @@ header {
   list-style: none;
 }
 .box-menu__paginas__lista li {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-top: 3rem;
   font-weight: 500;
 }
@@ -94,6 +94,94 @@ header {
   opacity: 90%;
   min-width: 32rem;
   color: #fff;
+}
+.footer__h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 4rem 0 2rem 4rem;
+}
+.footer__informacion {
+  padding-left: 4rem;
+}
+.footer__informacion__fijo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+.footer__informacion__whatsapp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+.footer__informacion__horarios {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+.footer__informacion__ubicacion {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+.footer__map {
+  width: 100%;
+}
+.footer__menu {
+  padding: 4rem 0 6rem 4rem;
+}
+.footer__menu__title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+.footer__menu__list {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-left: 1.5rem;
+}
+.footer__menu__list li {
+  margin-top: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.footer__pie-de-pagina {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #038C33;
+  font-size: 1.3rem;
+}
+
+.whatsapp-info {
+  width: 15rem;
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1.5rem;
+  border: 2px solid #038C33;
+  background-color: #000;
+  color: #fff;
+  margin: 4rem 0 4rem 0;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=estilos.css.map */
