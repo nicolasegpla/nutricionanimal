@@ -144,6 +144,9 @@ header {
 .footer__map {
   width: 100%;
 }
+.footer__map__img {
+  width: 100%;
+}
 .footer__menu {
   padding: 4rem 0 6rem 4rem;
 }
@@ -182,6 +185,21 @@ header {
   color: #fff;
   margin: 4rem 0 4rem 0;
   cursor: pointer;
+}
+
+.carrusel {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+}
+.carrusel__item {
+  width: 100%;
+  height: 100%;
+}
+.carrusel__item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=estilos.css.map */
