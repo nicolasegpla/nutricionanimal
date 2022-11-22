@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 
 main {
@@ -111,7 +112,10 @@ header {
 .box-menu {
   width: 100%;
   height: 100vh;
-  position: relative;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  opacity: 90%;
 }
 .box-menu__botones {
   width: 90%;

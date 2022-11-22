@@ -17,28 +17,28 @@
             <img class="bar-nav__menu" src="assets/iconos/menu.svg" alt="menu">
         </nav>
     </header>
-    <main>
-        <div class="box-menu inactive">
-            <div class="box-menu__botones">
-                <button class="box-menu__botones__home">
-                    <img src="assets/iconos/home.svg" alt="boton home">
-                </button>
-                <button class="box-menu__botones__close">
-                    <img src="assets/iconos/close.svg" alt="boton para salir del menu">
-                </button>
-            </div>
-            <div class="box-menu__paginas">
-                <ul class="box-menu__paginas__lista">
-                    <li>Quienes somos</li>
-                    <li>Productos</li>
-                    <li>Contacto</li>
-                    <li>La levadura en la nutricion animal</li>
-                </ul>
-            </div>
-            <button class="whatsapp-button">
-                <img src="assets/iconos/whatsapp.svg" alt="boton de whatsapp">
+    <div class="box-menu inactive">
+        <div class="box-menu__botones">
+            <button class="box-menu__botones__home">
+                <img src="assets/iconos/home.svg" alt="boton home">
+            </button>
+            <button class="box-menu__botones__close">
+                <img src="assets/iconos/close.svg" alt="boton para salir del menu">
             </button>
         </div>
+        <div class="box-menu__paginas">
+            <ul class="box-menu__paginas__lista">
+                <li class="box-menu__paginas__lista__1">Quienes somos</li>
+                <li class="box-menu__paginas__lista__2">Productos</li>
+                <li class="box-menu__paginas__lista__3">Contacto</li>
+                <li class="box-menu__paginas__lista__4">La levadura en la nutricion animal</li>
+            </ul>
+        </div>
+        <button class="whatsapp-button">
+            <img src="assets/iconos/whatsapp.svg" alt="boton de whatsapp">
+        </button>
+    </div>
+    <main class="main">
         <div class="carrusel">
             <div class="carrusel__item">
                 <img class="carrusel__item__img" src="assets/imagenes/dod640.jpg" alt="perro levadura levadura para ganado">
@@ -72,6 +72,25 @@
         </section>
 
     </main>
+
+    <section class="section-about inactive">
+        <h2>Quienes somos</h2>
+    </section>
+
+    <section class="section-producto inactive">
+        <h2>producto</h2>
+    </section>
+
+    <section class="section-contacto inactive">
+        <h2>Contacto</h2>
+    </section>
+
+    <section class="section-levadura inactive">
+        <h2>levadura</h2>
+    </section>
+
+
+
     <footer class="footer">
         <div class="footer__map">
             <img class="footer__map__img" src="assets/imagenes/mapslevadura.png" alt="mapa de la ubucacion de nutricionanimal">
@@ -118,5 +137,6 @@
     </footer>
 <script src="src/nodos.js"></script>    
 <script src="src/main.js"></script>
+<script src="src/navegacion.js"></script>
 </body>
 </html>
