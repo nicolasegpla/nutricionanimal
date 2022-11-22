@@ -1,0 +1,52 @@
+@use 'global';
+@use 'base';
+
+//seccion de quienes somos
+.section-about {
+    @include global.cajasMobil;
+    &__article {
+        @include global.articulosDelMenu;
+        &__h2 {
+            font-size: global.$font-size-title-section;
+            margin: 2rem;
+        }
+        &__p {
+            width: 80%;
+            margin: 2rem 0 2rem 0;
+            font-size: global.$font-size-text;
+            text-align: justify;
+            margin: 0 auto;
+            
+    
+        }
+    }
+    
+}
+.section-about__p--fp {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+//seccion de productos
+.section-producto {
+    @include global.cajasMobil;
+    &__article {
+        @include global.articulosDelMenu;
+        &__h2 {
+            font-size: global.$font-size-title-section;
+            margin: 2rem;
+        }
+
+    }
+}
+
+.call-action {
+    background-color: global.$call-action-products;
+    margin-top: -2rem;
+    margin-bottom: 6rem;
+}
+.call-action-1 {
+    background-color: global.$call-action-products;
+    margin-top: 2rem;
+    
+}

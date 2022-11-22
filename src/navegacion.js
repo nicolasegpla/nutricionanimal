@@ -36,7 +36,7 @@ function about() {
     sectionAbout.classList.remove('inactive');
     sectionProducts.classList.add('inactive');
     sectionContact.classList.add('inactive');
-    sectionLevadura.classList.add('inactive');
+    sectionLevadura.classList.add   ('inactive');
 }
 function productos() {
     menu.classList.remove('inactive');
