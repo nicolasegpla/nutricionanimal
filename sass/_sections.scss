@@ -32,12 +32,16 @@
     @include global.cajasMobil;
     &__article {
         @include global.articulosDelMenu;
+        margin-bottom: 2rem;
         &__h2 {
             font-size: global.$font-size-title-section;
-            margin: 2rem;
+            margin-top: 2rem;
         }
 
     }
+}
+.section-card__h2--tittle {
+    margin-top: -1rem;
 }
 
 .call-action {

@@ -330,10 +330,15 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .section-producto__article__h2 {
   font-size: 2.4rem;
-  margin: 2rem;
+  margin-top: 2rem;
+}
+
+.section-card__h2--tittle {
+  margin-top: -1rem;
 }
 
 .call-action {
@@ -345,6 +350,13 @@ header {
 .call-action-1 {
   background-color: #00586E;
   margin-top: 2rem;
+}
+
+.section__product {
+  background-color: aqua;
+  width: 80%;
+  height: 30rem;
+  margin-bottom: 30rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */
