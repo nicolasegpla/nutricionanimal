@@ -16,7 +16,7 @@ body {
 main {
   width: 100%;
   min-width: 32rem;
-  margin: 0 auto;
+  margin: 6rem auto;
 }
 
 .inactive {
@@ -34,8 +34,11 @@ header {
   height: 6rem;
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
   align-items: center;
-  position: relative;
+  position: fixed;
+  z-index: 3;
+  top: 0;
 }
 .bar-nav__title {
   font-family: "Rubik", sans-serif;
@@ -52,11 +55,17 @@ header {
   padding-top: 1rem;
 }
 .bar-nav__menu {
+  display: flex;
   margin-top: 0.5rem;
   margin-right: 1rem;
   position: absolute;
   top: 0;
   right: 0;
+}
+.bar-nav__menu__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bar-nav__menu__whatsapp {
   width: 3.5rem;
@@ -130,7 +139,7 @@ header {
 .box-menu {
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   background-color: #fff;
   opacity: 90%;
@@ -150,7 +159,6 @@ header {
 .box-menu__botones__close {
   background-color: transparent;
   border: none;
-  margin-top: 6rem;
 }
 .box-menu__paginas {
   width: 60%;
@@ -305,7 +313,7 @@ header {
 }
 .section-about__article__h2 {
   font-size: 2.4rem;
-  margin: 2rem;
+  margin: 10rem 0 4rem 0;
 }
 .section-about__article__p {
   width: 80%;
@@ -334,7 +342,7 @@ header {
 }
 .section-producto__article__h2 {
   font-size: 2.4rem;
-  margin-top: 2rem;
+  margin-top: 10rem;
 }
 
 .section-card__h2--tittle {
@@ -350,13 +358,6 @@ header {
 .call-action-1 {
   background-color: #00586E;
   margin-top: 2rem;
-}
-
-.section__product {
-  background-color: aqua;
-  width: 80%;
-  height: 30rem;
-  margin-bottom: 30rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */

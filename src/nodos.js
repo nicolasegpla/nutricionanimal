@@ -1,10 +1,11 @@
 const menuHamburguesa = document.querySelector('.bar-nav__menu__menu');
 const menu = document.querySelector('.menu');
+const logoMenuHamburguesa = document.querySelector('.menu__hamburguesa');
 const boxMenu = document.querySelector('.box-menu');
 const menuClose = document.querySelector('.box-menu__botones__close');
 const mainHome = document.querySelector('.main');
 const footer = document.querySelector('.footer');
-const buttonHomeMenu = document.querySelector('.box-menu__botones__home');
+//const buttonHomeMenu = document.querySelector('.box-menu__botones__home');
 const logoNav = document.querySelector('.bar-nav__title');
 const quienesSomos = document.querySelector('.box-menu__paginas__lista__1');
 const sectionAbout = document.querySelector('.section-about');
@@ -14,3 +15,4 @@ const sectionContact = document.querySelector('.section-contacto');
 const contactoMenu = document.querySelector('.box-menu__paginas__lista__3');
 const sectionLevadura = document.querySelector('.section-levadura');
 const levaduraMenu = document.querySelector('.box-menu__paginas__lista__4');
+const inicio = document.querySelector('.box-menu__paginas__lista__inicio');

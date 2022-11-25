@@ -10,8 +10,11 @@ header {
     height: 6rem;
     display: flex;
     justify-content: space-between;
+    background-color: global.$withe-color;
     align-items: center;
-    position: relative;
+    position: fixed;
+    z-index: 3 ;
+    top: 0;
     &__title {
         font-family: global.$font-logo;
         font-size: global.$font-size-logo;
@@ -27,11 +30,17 @@ header {
         padding-top: 1rem;
     }
     &__menu {
+        display: flex;
         margin-top: 0.5rem;
         margin-right: 1rem;
         position: absolute;
         top: 0;
         right: 0;
+        &__menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         &__whatsapp {
             width: 3.5rem;
             height: 3.5rem;
