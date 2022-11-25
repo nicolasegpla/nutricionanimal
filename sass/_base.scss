@@ -39,7 +39,7 @@ header {
         &__menu {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center; 
         }
         &__whatsapp {
             width: 3.5rem;
@@ -108,4 +108,14 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+.whatsapp {
+    width: 6rem;
+    border-radius: 1.5rem 0 0 1.5rem ;
+    border: none;
+    position: fixed;
+    right: 0;
+    bottom: 4rem;
+    z-index: 4;
 }
