@@ -55,3 +55,56 @@
     margin-top: 2rem;
     
 }
+
+//contacto
+
+.section-contacto {
+    @include global.cajasMobil;
+}
+.article-form {
+    width: 100%;
+    margin: 10rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__h2 {
+        font-size: global.$font-size-title-section;
+        margin-bottom: 0.5rem;
+    } 
+    &__p {
+        font-size: global.$font-size-text;
+        font-family: global.$font;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+    &__form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        &__input--name, &__input--correo, &__input--telefono, &__input--ciudad, &__input--producto {
+            @include global.inputForm;
+        } 
+        &__input--mensaje {
+            width: 25rem;
+            border: 1.5px solid #3333336a;
+            padding-top: 1rem;
+            padding-left: 1.5rem;
+            border-radius: 1rem;
+        }
+        &__button {
+            width: 18rem;
+            height: 4rem;
+            border-radius: 2rem;
+            border: none;
+            background-color: global.$second-color;
+            color: global.$withe-color;
+            font-size: global.$font-size-text;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+        }
+    }
+}

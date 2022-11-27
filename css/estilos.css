@@ -370,4 +370,65 @@ header {
   margin-top: 2rem;
 }
 
+.section-contacto {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 32rem;
+}
+
+.article-form {
+  width: 100%;
+  margin: 10rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article-form__h2 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+.article-form__p {
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.article-form__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.article-form__form__input--name, .article-form__form__input--correo, .article-form__form__input--telefono, .article-form__form__input--ciudad, .article-form__form__input--producto {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 1.5px solid rgba(51, 51, 51, 0.4156862745);
+  padding-left: 1.5rem;
+}
+.article-form__form__input--name:focus, .article-form__form__input--correo:focus, .article-form__form__input--telefono:focus, .article-form__form__input--ciudad:focus, .article-form__form__input--producto:focus {
+  border: 1.5px solid #038C33;
+}
+.article-form__form__input--mensaje {
+  width: 25rem;
+  border: 1.5px solid rgba(51, 51, 51, 0.4156862745);
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+}
+.article-form__form__button {
+  width: 18rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #038C33;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */
