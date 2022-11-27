@@ -431,4 +431,65 @@ header {
   margin-bottom: 4rem;
 }
 
+.section-levadura {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 32rem;
+}
+
+.article-levadura {
+  width: 100%;
+  margin: 10rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article-levadura__h2 {
+  width: 80%;
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.article-levadura__img-1 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.article-levadura__img-2 {
+  width: 100%;
+  margin: 4rem 0 2rem 0;
+}
+.article-levadura__p--italic {
+  width: 90%;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.9176470588);
+  margin-bottom: 2rem;
+}
+.article-levadura__bloque-p {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.article-levadura__bloque-p__p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.article-levadura__button {
+  width: 18rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #038C33;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */

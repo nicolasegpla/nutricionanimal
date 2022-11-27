@@ -108,3 +108,63 @@
         }
     }
 }
+
+//levadura 
+
+.section-levadura {
+    @include global.cajasMobil;
+}
+.article-levadura {
+    width: 100%;
+    margin: 10rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__h2 {
+        width: 80%;
+        font-size: global.$font-size-title-section;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    &__img-1 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &__img-2 {
+        width: 100%;
+        margin: 4rem 0 2rem 0;
+    }
+    &__p--italic {
+        width: 90%;
+        font-family: global.$font;
+        font-size: 1.1rem;
+        text-align: center;
+        color:#333333ea;
+        margin-bottom: 2rem;
+    }
+    &__bloque-p {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        &__p {
+            font-family: global.$font;
+            font-size: global.$font-size-text;
+            text-align: justify;
+        }
+    }
+    &__button {
+        width: 18rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border: none;
+        background-color: global.$second-color;
+        color: global.$withe-color;
+        font-size: global.$font-size-text;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+}
