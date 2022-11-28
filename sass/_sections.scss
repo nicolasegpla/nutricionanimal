@@ -28,31 +28,7 @@
 }
 
 //seccion de productos
-.section-producto {
-    @include global.cajasMobil;
-    &__article {
-        @include global.articulosDelMenu;
-        margin-bottom: 2rem;
-        &__h2 {
-            font-size: global.$font-size-title-section;
-        }
 
-    }
-}
-.section-card__h2--tittle {
-    margin-top: -1rem;
-}
-
-.call-action {
-    background-color: global.$call-action-products;
-    margin-top: -2rem;
-    margin-bottom: 6rem;
-}
-.call-action-1 {
-    background-color: global.$call-action-products;
-    margin-top: 2rem;
-    
-}
 
 //contacto
 
