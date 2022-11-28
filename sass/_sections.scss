@@ -28,6 +28,74 @@
 }
 
 //seccion de productos
+.section-producto {
+    @include global.cajasMobil;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__h2 {
+        @include global.articulosDelMenu;
+        width: 80%;
+        font-size: global.$font-size-title-section;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    &__article {
+        width: 30rem;
+        height: 40rem;
+        margin-bottom: 4rem;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        &__img {
+            width: 25rem;
+            margin-top: -4rem;
+            margin-bottom: -2rem;
+        }
+        &__h3 {
+            width: 80%;
+            font-size: global.$font-size-text;
+            text-align: left;
+            margin-bottom: 0.5rem;
+        }
+        &__p {
+            width: 80%;
+            font-size: global.$font-size-text;
+            margin-bottom: 1rem;
+        }
+        &__box-button {
+            width: 80%;
+            margin: 0 0 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            &__tabla {
+                width: 80%;
+                height: 3rem;
+                background-color: global.$withe-color;
+                border: none;
+                border-radius: 1rem;
+                border: 1px solid #333333;
+                font-size: global.$font-size-text;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            &__carrito {
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+                border: none;
+                background-color: global.$call-action-products;
+                cursor: pointer;
+            }
+        }
+    }
+}
 
 
 //contacto
