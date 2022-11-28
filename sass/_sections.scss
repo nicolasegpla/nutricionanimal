@@ -8,7 +8,7 @@
         @include global.articulosDelMenu;
         &__h2 {
             font-size: global.$font-size-title-section;
-            margin: 10rem 0 4rem 0;
+            margin: 0 0 4rem 0;
         }
         &__p {
             width: 80%;
@@ -30,13 +30,11 @@
 //seccion de productos
 .section-producto {
     @include global.cajasMobil;
-    
     &__article {
         @include global.articulosDelMenu;
         margin-bottom: 2rem;
         &__h2 {
             font-size: global.$font-size-title-section;
-            margin-top: 10rem;
         }
 
     }
@@ -62,12 +60,7 @@
     @include global.cajasMobil;
 }
 .article-form {
-    width: 100%;
-    margin: 10rem 0 4rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include global.articulosDelMenu;
     &__h2 {
         font-size: global.$font-size-title-section;
         margin-bottom: 0.5rem;
@@ -115,12 +108,7 @@
     @include global.cajasMobil;
 }
 .article-levadura {
-    width: 100%;
-    margin: 10rem 0 4rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include global.articulosDelMenu;
     &__h2 {
         width: 80%;
         font-size: global.$font-size-title-section;

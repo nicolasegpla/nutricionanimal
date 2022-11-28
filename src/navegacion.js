@@ -14,6 +14,12 @@ function navegacion() {
         contacto();
     }else if(location.hash.startsWith('#levadura-en-la-alimentacion-animal')) {
         levadura();
+    }else if(location.hash.startsWith('#levadura-animal-lyscell')) {
+        lyscell();
+        console.log('lyscell');
+    }else if(location.hash.startsWith('#levadura-animal-rumenyeast')) {
+        rumenyeast();
+        console.log('rumenyeast');
     }
 }
 
@@ -27,6 +33,10 @@ function home() {
     sectionProducts.classList.add('inactive');
     sectionContact.classList.add('inactive');
     sectionLevadura.classList.add('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
 }
 function about() {
     menu.classList.remove('inactive');
@@ -37,6 +47,10 @@ function about() {
     sectionProducts.classList.add('inactive');
     sectionContact.classList.add('inactive');
     sectionLevadura.classList.add   ('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
 }
 function productos() {
     menu.classList.remove('inactive');
@@ -47,6 +61,10 @@ function productos() {
     sectionProducts.classList.remove('inactive');
     sectionContact.classList.add('inactive');
     sectionLevadura.classList.add('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
 }
 function contacto() {
     menu.classList.remove('inactive');
@@ -57,6 +75,10 @@ function contacto() {
     sectionProducts.classList.add('inactive');
     sectionContact.classList.remove('inactive');
     sectionLevadura.classList.add('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
 }
 
 function levadura() {
@@ -68,4 +90,37 @@ function levadura() {
     sectionProducts.classList.add('inactive');
     sectionContact.classList.add('inactive');
     sectionLevadura.classList.remove('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
 }
+function lyscell() {
+    menu.classList.remove('inactive');
+    boxMenu.classList.add('inactive');
+    mainHome.classList.add('inactive');
+    footer.classList.remove('inactive');
+    sectionAbout.classList.add('inactive');
+    sectionProducts.classList.add('inactive');
+    sectionContact.classList.add('inactive');
+    sectionLevadura.classList.add('inactive');
+    sectionLyscell.classList.remove('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
+}
+function rumenyeast() {
+    menu.classList.remove('inactive');
+    boxMenu.classList.add('inactive');
+    mainHome.classList.add('inactive');
+    footer.classList.remove('inactive');
+    sectionAbout.classList.add('inactive');
+    sectionProducts.classList.add('inactive');
+    sectionContact.classList.add('inactive');
+    sectionLevadura.classList.add('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.remove('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
+}
+

@@ -26,6 +26,8 @@ $breackpoints: (
     margin-top: 2rem;
 }
 @mixin articulosDelMenu {
+    width: 100%;
+    margin: 10rem 0 4rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

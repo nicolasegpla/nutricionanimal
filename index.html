@@ -14,7 +14,7 @@
     <title>Nutricion animal</title>
 </head>
 <body>
-    <button class="whatsapp">
+    <button id="whatsapp-flotante" class="whatsapp">
         <img src="assets/iconos/whatsapp.svg" alt="">
     </button>
     <header class="menu">
@@ -60,21 +60,20 @@
         <section class="section-home">
             <h2 class="section-home__h2">Levadura y sus beneficios en la alimentacion animal</h2>
             <p class="section-home__p">La levadura son hongos microscópicos que al ser incluidos en la dieta de los animales afectan positivamente al huésped, mejorando su sistema digestivo. En el caso de los rumiantes, se emplea la levadura viva de cerveza, que está constituida por el hongo Saccharomyces cerevisiae.</p>
-            <button class="button-more">Leer mas</button>
+            <button id="levadura-home" class="button-more">Leer mas</button>
         </section>
         <section  class="section-card">
             <img class="section-card__img" src="assets/imagenes/cerdostarjeta.jpg" alt="cerdos levadura alimentacion porcicultura">
             <h2 class="section-card__h2">LysCell®</h2>
             <p class="section-card__p">Fuente de aminoacidos libres y peptidos de cadena corta, que son la fuente de proteinas ideal para animales jovenes </p>
-            <button class="button-more">Leer mas</button>
+            <button id="boton-producto-info-lyscell" class="button-more">Leer mas</button>
         </section>
         <section  class="section-card">
             <img class="section-card__img" src="assets/imagenes/ganado.jpg" alt="ganado reses levadura alimentacion porcicultura">
             <h2 class="section-card__h2">RumenYeast®</h2>
             <p class="section-card__p">Estimula la actividad de las bacterias celuloliticas y mejora la condicion de la microflora del rumen</p>
-            <button class="button-more button-more--position">Leer mas</button>
+            <button id="boton-producto-info-rumenyeast" class="button-more button-more--position">Leer mas</button>
         </section>
-
     </main>
 
     <section class="section-about inactive">
@@ -94,14 +93,14 @@
                 <img class="section-card__img" src="assets/imagenes/lyscellimg.png" alt="cerdos levadura alimentacion porcicultura">
                 <h2 class="section-card__h2 section-card__h2--tittle">LysCell®</h2>
                 <p class="section-card__p">Fuente de aminoacidos libres y peptidos de cadena corta, que son la fuente de proteinas ideal para animales jovenes </p>
-                <button class="button-more">Leer mas</button>
+                <button class="button-more boton-producto-info-lyscell">Leer mas</button>
                 <button class="button-more button-more--position call-action-1">Como comprar</button>
             </section>
             <section  class="section-card">
                 <img class="section-card__img" src="assets/imagenes/rummen.png" alt="ganado reses levadura alimentacion porcicultura">
                 <h2 class="section-card__h2 section-card__h2--tittle">RumenYeast®</h2>
                 <p class="section-card__p">Estimula la actividad de las bacterias celuloliticas y mejora la condicion de la microflora del rumen</p>
-                <button class="button-more button-more--position">Leer mas</button>
+                <button class="button-more boton-producto-info-rumenyeast button-more--position">Leer mas</button>
                 <button class="button-more button-more--position call-action">Como comprar</button>
             </section>
         </article>
@@ -146,6 +145,31 @@
         </article>
     </section>
 
+    <section class="section-lyscell inactive">
+        <article class="section-lyscell__article">
+            <img class="section-lyscell__article__img" src="" alt="">
+            <h2 class="section-lyscell__article__h2"></h2>
+            <p class="section-lyscell__article__p"></p>
+            <div class="section-lyscell__article__bloque-botones">
+                <button class="section-lyscell__article__bloque-botones__button--more">Mas informacion</button>
+                <button class="section-lyscell__article__bloque-botones__button--tabla">Tabla nutricional</button>
+                <button class="section-lyscell__article__bloque-botones__button--comprar">Como comprar</button>
+            </div>
+        </article>
+    </section>
+
+    <section class="section-rumenyeast inactive">
+        <article class="section-rumenyeast__article">
+            <img class="section-rumenyeast__article__img" src="" alt="">
+            <h2 class="section-rumenyeast__article__h2"></h2>
+            <p class="section-rumenyeast__article__p"></p>
+            <div class="section-rumenyeast__article__bloque-botones">
+                <button class="section-rumenyeast__article__bloque-botones__button--more">Mas informacion</button>
+                <button class="section-rumenyeast__article__bloque-botones__button--tabla">Tabla nutricional</button>
+                <button class="section-rumenyeast__article__bloque-botones__button--comprar">Como comprar</button>
+            </div>
+        </article>
+    </section>
 
 
     <footer class="footer">
@@ -158,7 +182,7 @@
                 <img class="footer__informacion__fijo__img" src="assets/iconos/fijo.svg" alt="telefono fijo">
                 <p class="footer__informacion__fijo__info">601 806 4045</p>
             </div>
-            <div class="footer__informacion__whatsapp">
+            <div id="link-whatsapp-footer" class="footer__informacion__whatsapp">
                 <img class="footer__informacion__whatsapp__img" src="assets/iconos/whatsapp-footer.svg" alt="whatsapp">
                 <p class="footer__informacion__whatsapp__info">+57 314 3020 201</p>
             </div>
@@ -173,7 +197,7 @@
                     Barrio Ortezal <br> Bogota, Colombia</p>
             </div>
 
-            <button class="whatsapp-info">
+            <button id="boton-whatsapp-footer" class="whatsapp-info">
                 <img src="assets/iconos/whatsapp-footer.svg" alt="whatsapp mas Informacion">
                 <p>Mas Informacion</p>
             </button>
