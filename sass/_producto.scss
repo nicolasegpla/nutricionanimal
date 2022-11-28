@@ -1,0 +1,77 @@
+@use 'global';
+
+.section-lyscell {
+    @include global.cajasMobil;
+    &__article {
+        @include global.articulosDelMenu;
+        margin-bottom: 4rem;
+        &__h2 {
+            width: 80%;
+            font-size: global.$font-size-title-section;
+            text-align: center;
+        }
+        &__p--tittle {
+            width: 90%;
+            font-family: global.$font;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-align: center;
+            color:#333333ea;
+        }
+        &__img {
+            width: 30rem;
+            margin-top: -2rem;
+        }
+        &__div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: -2rem;
+            background-color: global.$primary-color;
+            color: global.$withe-color;
+            opacity: 90%;
+            border-radius: 1rem 1rem 0 0;
+            &__p--tittle {
+                width: 60%;
+                text-align: center;
+                margin-top: 2rem;
+                font-size: global.$font-size-text;
+            }
+            &__p {
+                width: 90%;
+                margin-top: 1rem;
+                font-size: global.$font-size-text;
+                font-weight: 100;
+                text-align: justify;
+            }
+            &__bloque-botones {
+                width: 90%;
+                margin: 2rem 0 2rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                &__button--tabla {
+                    width: 70%;
+                    height: 3rem;
+                    background-color: global.$withe-color;
+                    border: none;
+                    border-radius: 1rem;
+                    font-size: global.$font-size-text;
+                    font-weight: 600;
+                }
+                &__button--comprar {
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    border: none;
+                    background-color: global.$call-action-products;
+                }
+
+            }
+            
+        }
+    }
+}
