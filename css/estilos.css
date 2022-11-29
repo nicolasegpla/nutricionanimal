@@ -356,11 +356,11 @@ header {
   font-size: 2.4rem;
   margin-bottom: 4rem;
   text-align: center;
-  margin: 10rem auto 0 auto;
+  margin: 10rem auto 4rem auto;
 }
 .section-producto__article {
   width: 30rem;
-  height: 40rem;
+  height: 45rem;
   margin: 0 auto;
   margin-bottom: 4rem;
   border-radius: 1.5rem;
@@ -380,6 +380,22 @@ header {
   font-size: 1.3rem;
   text-align: left;
   margin-bottom: 0.5rem;
+}
+.section-producto__article__div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 1rem 0;
+  gap: 0.5rem;
+}
+.section-producto__article__div__p--ref {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.section-producto__article__div__p--price {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #038C33;
 }
 .section-producto__article__p {
   width: 80%;
