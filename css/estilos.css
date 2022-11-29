@@ -95,9 +95,10 @@ header {
 }
 
 .button-more {
-  width: 18rem;
-  height: 4rem;
-  border-radius: 2rem;
+  width: 20rem;
+  min-width: 20rem;
+  height: 3rem;
+  border-radius: 1rem;
   border: none;
   background-color: #038C33;
   color: #fff;
@@ -413,10 +414,10 @@ header {
 .section-producto__article__box-button__tabla {
   width: 80%;
   height: 3rem;
-  background-color: #fff;
+  background-color: #038C33;
+  color: #fff;
   border: none;
   border-radius: 1rem;
-  border: 1px solid #333333;
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
@@ -480,9 +481,10 @@ header {
   border-radius: 1rem;
 }
 .article-form__form__button {
-  width: 18rem;
-  height: 4rem;
-  border-radius: 2rem;
+  width: 20rem;
+  min-width: 20rem;
+  height: 3rem;
+  border-radius: 1rem;
   border: none;
   background-color: #038C33;
   color: #fff;
@@ -541,9 +543,10 @@ header {
   text-align: justify;
 }
 .article-levadura__button {
-  width: 18rem;
-  height: 4rem;
-  border-radius: 2rem;
+  width: 20rem;
+  min-width: 20rem;
+  height: 3rem;
+  border-radius: 1rem;
   border: none;
   background-color: #038C33;
   color: #fff;
@@ -591,10 +594,10 @@ header {
   width: 20rem;
   min-width: 20rem;
   height: 3rem;
-  background-color: #fff;
+  background-color: #038C33;
+  color: #fff;
   border: none;
   border-radius: 1rem;
-  border: 1px solid #333333;
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
@@ -648,10 +651,10 @@ header {
   width: 20rem;
   min-width: 20rem;
   height: 3rem;
-  background-color: #fff;
+  background-color: #038C33;
+  color: #fff;
   border: none;
   border-radius: 1rem;
-  border: 1px solid #333333;
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;

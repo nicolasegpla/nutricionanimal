@@ -70,9 +70,10 @@ header {
     }
 }
 .button-more {
-    width: 18rem;
-    height: 4rem;
-    border-radius: 2rem;
+    width: 20rem;
+    min-width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
     border: none;
     background-color: global.$second-color;
     color: global.$withe-color;
