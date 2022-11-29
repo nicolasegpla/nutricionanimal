@@ -4,9 +4,10 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    top: 0.5px;
+    top: 60px;
     z-index: 2;
-    background-color: global.$withe-color;
+    background-color: aqua;
+    //background-color: global.$withe-color;
     opacity: 90%;
     &__botones {
         width: 90%;

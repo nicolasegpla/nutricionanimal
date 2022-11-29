@@ -151,9 +151,9 @@ header {
   width: 100%;
   height: 100vh;
   position: fixed;
-  top: 0.5px;
+  top: 60px;
   z-index: 2;
-  background-color: #fff;
+  background-color: aqua;
   opacity: 90%;
 }
 .box-menu__botones {
