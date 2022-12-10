@@ -36,9 +36,18 @@ botonLyscellMasInformacion.addEventListener('click', () => {
     location.hash = '#levadura-animal-lyscell';
 });
 
+botonLycellProductoDetalle.addEventListener('click', () => {
+    location.hash = '#levadura-animal-lyscell';
+}) 
+
 botonRumenyeastMasInformacion.addEventListener('click', () => {
     location.hash = '#levadura-animal-rumenyeast';
 });
+
+botonRumenyeastProductoDetalle.addEventListener('click', () => {
+    location.hash = '#levadura-animal-rumenyeast';
+})
+
 botonHomeLevadura.addEventListener('click',() => {
     location.hash = '#levadura-en-la-alimentacion-animal';
 });

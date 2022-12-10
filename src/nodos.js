@@ -29,3 +29,5 @@ const botonWhatsappFooter = document.getElementById('boton-whatsapp-footer');
 const linkWhatsappFooter = document.getElementById('link-whatsapp-footer');
 const LinkMapsFooter = document.querySelector('.footer__informacion__ubicacion__info');
 const mapLink = document.querySelector('.footer__map');
+const botonLycellProductoDetalle = document.querySelector('#section-producto__article__box-button__tabla-lycell');
+const botonRumenyeastProductoDetalle = document.querySelector('#section-producto__article__box-button__tabla-rumenyeast');
