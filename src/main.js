@@ -63,6 +63,9 @@ linkWhatsappFooter.addEventListener('click', goToPageWhatsapp);
 LinkMapsFooter.addEventListener('click', goMaps);
 mapLink.addEventListener('click', goMaps);
 botonCarritoDecompra.addEventListener('click', goToPageWhatsapp);
+botonCarritoDecompra2.addEventListener('click', goToPageWhatsapp);
+botonCarritoDecompra3.addEventListener('click', goToPageWhatsapp);
+botonCarritoDecompra4.addEventListener('click', goToPageWhatsapp);
 
 
 function menuDesplegable() {
