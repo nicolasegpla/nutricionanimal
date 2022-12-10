@@ -21,6 +21,8 @@ function navegacion() {
         rumenyeast();
         console.log('rumenyeast');
     }
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 
 
