@@ -20,6 +20,8 @@ function navegacion() {
     }else if(location.hash.startsWith('#levadura-animal-rumenyeast')) {
         rumenyeast();
         console.log('rumenyeast');
+    }else if(location.hash.startsWith('#blog')) {
+        blog();
     }
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -39,6 +41,7 @@ function home() {
     sectionRumenyeast.classList.add('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
 function about() {
     menu.classList.remove('inactive');
@@ -53,6 +56,7 @@ function about() {
     sectionRumenyeast.classList.add('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
 function productos() {
     menu.classList.remove('inactive');
@@ -67,6 +71,7 @@ function productos() {
     sectionRumenyeast.classList.add('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
 function contacto() {
     menu.classList.remove('inactive');
@@ -81,6 +86,7 @@ function contacto() {
     sectionRumenyeast.classList.add('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
 
 function levadura() {
@@ -96,6 +102,7 @@ function levadura() {
     sectionRumenyeast.classList.add('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
 function lyscell() {
     menu.classList.remove('inactive');
@@ -110,6 +117,7 @@ function lyscell() {
     sectionRumenyeast.classList.add('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
 function rumenyeast() {
     menu.classList.remove('inactive');
@@ -124,5 +132,20 @@ function rumenyeast() {
     sectionRumenyeast.classList.remove('inactive');
     logoMenuHamburguesa.classList.remove('inactive');
     menuClose.classList.add('inactive');
+    sectionBlog.classList.add('inactive');
 }
-
+function blog() {
+    menu.classList.remove('inactive');
+    boxMenu.classList.add('inactive');
+    mainHome.classList.add('inactive');
+    footer.classList.remove('inactive');
+    sectionAbout.classList.add('inactive');
+    sectionProducts.classList.add('inactive');
+    sectionContact.classList.add('inactive');
+    sectionLevadura.classList.add('inactive');
+    sectionLyscell.classList.add('inactive');
+    sectionRumenyeast.classList.add('inactive');
+    logoMenuHamburguesa.classList.remove('inactive');
+    menuClose.classList.add('inactive');
+    sectionBlog.classList.remove('inactive');
+}

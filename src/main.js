@@ -42,6 +42,11 @@ botonRumenyeastMasInformacion.addEventListener('click', () => {
 botonHomeLevadura.addEventListener('click',() => {
     location.hash = '#levadura-en-la-alimentacion-animal';
 });
+
+blogMenu.addEventListener('click', () => {
+    location.hash = '#blog';
+});
+
 botonWhatsappBarNav.addEventListener('click', goToPageWhatsapp);
 botonWhatsappFlotante.addEventListener('click', goToPageWhatsapp);
 botonWhatsappFooter.addEventListener('click', goToPageWhatsapp);
