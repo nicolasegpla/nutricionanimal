@@ -25,3 +25,4 @@ const botonWhatsappBarNav = document.querySelector('.bar-nav__menu__whatsapp');
 const botonWhatsappFlotante = document.getElementById('whatsapp-flotante');
 const botonWhatsappFooter = document.getElementById('boton-whatsapp-footer');
 const linkWhatsappFooter = document.getElementById('link-whatsapp-footer');
+const LinkMapsFooter = document.querySelector('.footer__informacion__ubicacion__info');

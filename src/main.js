@@ -46,6 +46,7 @@ botonWhatsappBarNav.addEventListener('click', goToPageWhatsapp);
 botonWhatsappFlotante.addEventListener('click', goToPageWhatsapp);
 botonWhatsappFooter.addEventListener('click', goToPageWhatsapp);
 linkWhatsappFooter.addEventListener('click', goToPageWhatsapp);
+LinkMapsFooter.addEventListener('click', goMaps);
 
 
 function menuDesplegable() {
@@ -68,4 +69,7 @@ function menuBoxClose() {
 
 function goToPageWhatsapp(){
     window.open ('https://wa.link/tzd3s5');
+}
+function goMaps() {
+    window.open ('https://www.google.com/maps/place/Distrines+-+Insumos+de+cerveza/@4.6269142,-74.0991848,16.63z/data=!4m5!3m4!1s0x8e3f9ed3ef14ddd1:0xa1803601e22ec176!8m2!3d4.6281022!4d-74.0975057?hl=es');
 }
