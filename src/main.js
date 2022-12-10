@@ -47,6 +47,7 @@ botonWhatsappFlotante.addEventListener('click', goToPageWhatsapp);
 botonWhatsappFooter.addEventListener('click', goToPageWhatsapp);
 linkWhatsappFooter.addEventListener('click', goToPageWhatsapp);
 LinkMapsFooter.addEventListener('click', goMaps);
+mapLink.addEventListener('click', goMaps);
 
 
 function menuDesplegable() {
