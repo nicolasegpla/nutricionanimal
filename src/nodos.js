@@ -31,3 +31,4 @@ const LinkMapsFooter = document.querySelector('.footer__informacion__ubicacion__
 const mapLink = document.querySelector('.footer__map');
 const botonLycellProductoDetalle = document.querySelector('#section-producto__article__box-button__tabla-lycell');
 const botonRumenyeastProductoDetalle = document.querySelector('#section-producto__article__box-button__tabla-rumenyeast');
+const botonCarritoDecompra = document.querySelector('.como-comprar');
