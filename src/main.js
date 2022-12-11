@@ -24,6 +24,10 @@ productosMenu.addEventListener('click', () => {
     location.hash = '#productos';
 });
 
+botonArticuloLevadura.addEventListener('click', () => {
+    location.hash = '#productos';
+})
+
 contactoMenu.addEventListener('click', () => {
     location.hash = '#contacto';
 });

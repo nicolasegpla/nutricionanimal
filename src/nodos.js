@@ -35,3 +35,4 @@ const botonCarritoDecompra = document.querySelector('.como-comprar');
 const botonCarritoDecompra2 = document.querySelector('.como-comprar-2');
 const botonCarritoDecompra3 = document.querySelector('.como-comprar-3');
 const botonCarritoDecompra4 = document.querySelector('.como-comprar-4');
+const botonArticuloLevadura = document.querySelector('.article-levadura__button');
