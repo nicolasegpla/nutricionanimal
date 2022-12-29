@@ -15,6 +15,7 @@ header {
     position: fixed;
     z-index: 3 ;
     top: 0;
+    
     &__title {
         font-family: global.$font-logo;
         font-size: global.$font-size-logo;
@@ -28,6 +29,7 @@ header {
         top: 0;
         text-align: center;
         padding-top: 1rem;
+        cursor: pointer;
     }
     &__menu {
         display: flex;
@@ -36,6 +38,10 @@ header {
         position: absolute;
         top: 0;
         right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
         &__menu {
             display: flex;
             justify-content: center;
@@ -44,6 +50,51 @@ header {
         &__whatsapp {
             width: 3.5rem;
             height: 3.5rem;
+            @include global.media-down(sm) {
+                display: none;
+           }
+        }
+        &__whatsapp--tablet {
+            width: 15rem;
+            height: 3.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-right: 1rem;
+            border-radius: 1.5rem;
+            border: none;
+            background-color: global.$second-color;
+            color: global.$withe-color;
+            cursor: pointer;
+            @include global.media-up(sm) {
+                display: none;
+           }
+           @include global.media-down(md) {
+            margin-top: 1rem;
+       }
+        }
+        
+    }
+    &__menu--desktop {
+        margin: 0 auto;
+        width: 60rem;
+        @include global.media-up(md) {
+            display: none;
+       }
+        &__list {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+            font-family: global.$font;
+            font-size: global.$font-size-text;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        &__list li:hover {
+            color: global.$second-color;
+            font-size: global.$font-size-title;
         }
     }
 }
@@ -63,9 +114,9 @@ header {
         margin-top: 4rem;
     }
     &__p {
-        width: 70%;
+        width: 60%;
         font-size: global.$font-size-text;
-        text-align: justify;
+        text-align: center;
         margin-top: 2rem;
     }
 }
@@ -84,6 +135,16 @@ header {
     margin-bottom: 4rem;
 }
 
+/*.div__container--cards {
+    @include global.media-down(md) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+}
+
+
+
 .section-card {
     width: 100%;
     margin: 0 auto;
@@ -97,6 +158,7 @@ header {
         height: 30rem;
         object-fit: cover;
         margin-top: 4rem;
+        
     }
     &__h2 {
         font-size: global.$font-size-title;
@@ -109,7 +171,145 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}*/
+.h2--home-products {
+    width: 100%;
+    text-align: center;
+    font-size: global.$font-size-title-section;
+    margin-top: 6rem;
 }
+
+.div__container--cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-card--lycell {
+    width: 35rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    @include global.media-down(md) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 75rem;
+        height: 30rem;
+   }
+    &__img {
+        width: 100%;
+        border-radius: 1.5rem 1.5rem 0 0;
+        @include global.media-down(md) {
+            width: 90%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1.5rem 0 0 1.5rem;
+       }
+    }
+    &__div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__h2 {
+            font-size: global.$font-size-title;
+            font-weight: 700;
+            margin-top: 4rem;
+        }
+        &__p {
+            width: 50%;
+            font-size: global.$font-size-text;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+
+}
+
+.section-card--rumenyeast {
+    width: 35rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include global.media-down(md) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 75rem;
+        height: 30rem;
+   }
+    
+    &__img {
+        width: 100%;
+        border-radius: 1.5rem 1.5rem 0 0;
+        @include global.media-down(md) {
+            width: 90%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0 1.5rem 1.5rem 0;
+       }
+    }
+    &__div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__h2 {
+            font-size: global.$font-size-title;
+            font-weight: 700;
+            margin-top: 4rem;
+        }
+        &__p {
+            width: 50%;
+            font-size: global.$font-size-text;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+
+}
+
+.div--marcas {
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto 0 auto;
+    gap: 2rem;
+    &__lycell {
+        width: 40%;
+        @include global.media-down(md) {
+            width: 20rem;
+       }
+       @include global.media-down(sm) {
+        width: 20rem;
+       }
+    }
+    &__rumenyeast {
+        width: 50%;
+        @include global.media-down(md) {
+            width: 30rem;
+       }
+       @include global.media-down(sm) {
+        width: 20rem;
+       }
+    }
+}
+
 
 .whatsapp {
     width: 6rem;
@@ -119,4 +319,14 @@ header {
     right: 0;
     bottom: 8rem;
     z-index: 4;
+}
+
+.menu__hamburguesa {
+    @include global.media-down(md) {
+        display: none;
+   }
+}
+
+.section-card--rumenyeast {
+    margin-top: 2.5rem;
 }

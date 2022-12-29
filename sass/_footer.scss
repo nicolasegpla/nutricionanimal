@@ -6,10 +6,20 @@
     opacity: 90%;
     min-width: 32rem;
     color: global.$withe-color;
+    @include global.media-down(md) {
+        display: flex;
+        flex-direction: row-reverse;
+        
+        
+   }
+   @include global.media-down(lg) {
+    display: flex;
+}
+    
     &__h2 {
         font-size: global.$font-size-title;
         font-weight: 300;
-        padding: 4rem 0 2rem 4rem;
+        padding: 4rem 0 2rem 0;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -17,6 +27,7 @@
     }
     &__informacion {
         padding-left: 4rem;
+        padding-bottom: 4rem;
         &__fijo {
             @include global.elementosFooter;
         }
@@ -34,8 +45,50 @@
     }
     &__map {
         width: 100%;
+        @include global.media-down(lg) {
+            display: none;
+            
+        }
+        @include global.media-down(md) {
+            display: none;
+           
+        }
+        @include global.media-down(sm) {
+            display: none;
+           
+        }
         &__img {
             width: 100%;
+            @include global.media-down(lg) {
+                height: 35rem;
+                
+            }
+            @include global.media-down(md) {
+                height: 35rem;
+               
+            }
+            
+        }
+    }
+    .container__info--footer {
+        @include global.media-down(sm) {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 4rem;  
+        }
+        @include global.media-down(md) {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            gap: 4rem;  
+        }
+        @include global.media-down(lg) {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            gap: 6rem;  
         }
     }
     &__menu {
@@ -61,6 +114,11 @@
         padding-bottom: 1rem;
         color: global.$second-color;
         font-size: global.$font-size-text;
+    }
+}
+.footer__menu {
+    @include global.media-up(sm) {
+        display: none;  
     }
 }
 .whatsapp-info {

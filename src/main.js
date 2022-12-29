@@ -56,13 +56,11 @@ botonHomeLevadura.addEventListener('click',() => {
     location.hash = '#levadura-en-la-alimentacion-animal';
 });
 
-blogMenu.addEventListener('click', () => {
-    location.hash = '#blog';
-});
+
 
 botonWhatsappBarNav.addEventListener('click', goToPageWhatsapp);
 botonWhatsappFlotante.addEventListener('click', goToPageWhatsapp);
-botonWhatsappFooter.addEventListener('click', goToPageWhatsapp);
+//botonWhatsappFooter.addEventListener('click', goToPageWhatsapp);
 linkWhatsappFooter.addEventListener('click', goToPageWhatsapp);
 LinkMapsFooter.addEventListener('click', goMaps);
 mapLink.addEventListener('click', goMaps);

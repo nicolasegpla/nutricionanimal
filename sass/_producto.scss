@@ -99,3 +99,18 @@
         }
     }
 }
+
+.container__productos {
+    @include global.media-down(md) {
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        gap: -6rem;
+    }
+    @include global.media-down(lg) {
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        gap: -6rem;
+    }
+}

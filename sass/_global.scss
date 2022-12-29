@@ -16,6 +16,17 @@ $breackpoints: (
     lg: 1280px,
 );
 
+@mixin media-up($breackpoint) {
+    @media screen and (max-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+@mixin media-down($breackpoint) {
+    @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+
 @mixin elementosFooter {
     display: flex;
     justify-content: flex-start;
@@ -23,7 +34,7 @@ $breackpoints: (
     gap: 1rem;
     font-size: $font-size-text;
     font-weight: 300;
-    margin-top: 2rem;
+    margin-top: 0.7rem;
 }
 @mixin articulosDelMenu {
     width: 100%;
